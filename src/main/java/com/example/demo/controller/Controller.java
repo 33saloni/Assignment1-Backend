@@ -64,6 +64,7 @@ public class Controller {
 	public ResponseEntity<List<HealthCheck>> checkHealth(){	
 		ResponseEntity<List<HealthCheck>> value = null;
 		List<HealthCheck> result = bo.HealthCheck();
+		
 		if(result!=null)
 			value = new ResponseEntity<>(result,HttpStatus.OK);
 		return value;
