@@ -49,6 +49,5 @@ public class StepDefinition {
 	 int status = response.then().extract().statusCode();
 	 assertEquals(200,status);
 	 response.then().assertThat().body("id", equalTo(int2));
-	// assertEquals(int2,response.then().extract().re;
 	}
 }

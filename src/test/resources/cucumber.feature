@@ -10,5 +10,9 @@ Feature: Posting the data of customer to database
       | id  | name| status  | id
       | 1 | "Saloni" | 200 | 1
       
+  
+ 
+   
+      
  
     
